@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
     background-color: white;
-    padding: 0;
     margin: 0;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -13,25 +10,103 @@ body {
     flex-direction: column;
 }
 
-.section-one{
-    align-items: center;
-justify-content: center;
-}
-
-.header,
-.section-one,
-.footer{
-    background-color: #1F2937;
-}
+/* header */
 
 .header{
     display: flex;
     justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+}
+/* Section one */
+
+.section-one{
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    border-bottom: 50px;
+    flex-basis: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero-cta p {
+    font-family: 'Roboto', arial;
+}
+
+.section-one button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+img{
+    height: 300px;
+    width: 500px;
+}
+
+/* Section two */
+.section-two{
+align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info img {
+    border-radius: 20px;
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0px 20px 20px 20px;
+}
+
+/* Section three */
+
+.section-three{
+    background-color: #E5E7EB;
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
 }
 
 ul{
@@ -48,17 +123,6 @@ a {
     font-size: 18px;
 }
 
-img{
-    height: 200px;
-    width: 200px;
-}
-.section-three{
-    background-color: #E5E7EB;
-    display: flex ;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
 .quote{
     font-size: 36px;
     color: #1F2937;
@@ -72,7 +136,10 @@ img{
     margin-bottom: 32px;
 }
 
+/* footer */
+
 .footer{
+    background-color: #1F2937;
     color: white;
-    padding: 18px;
+    font-family: 'Roboto', arial;
 }
